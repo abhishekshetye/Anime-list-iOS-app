@@ -14,6 +14,9 @@
 		452D966823800D4D00F3EFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452D966623800D4D00F3EFC1 /* LaunchScreen.storyboard */; };
 		452D967323800D4D00F3EFC1 /* AnimeListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D967223800D4D00F3EFC1 /* AnimeListTests.swift */; };
 		452D967E23800D4D00F3EFC1 /* AnimeListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D967D23800D4D00F3EFC1 /* AnimeListUITests.swift */; };
+		452D968E23800DD200F3EFC1 /* AnimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D968D23800DD200F3EFC1 /* AnimeTableViewCell.swift */; };
+		452D969023800DE200F3EFC1 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D968F23800DE200F3EFC1 /* Anime.swift */; };
+		452D969223800E5700F3EFC1 /* AnimeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452D969123800E5700F3EFC1 /* AnimeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		452D967923800D4D00F3EFC1 /* AnimeListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		452D967D23800D4D00F3EFC1 /* AnimeListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListUITests.swift; sourceTree = "<group>"; };
 		452D967F23800D4D00F3EFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452D968D23800DD200F3EFC1 /* AnimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeTableViewCell.swift; sourceTree = "<group>"; };
+		452D968F23800DE200F3EFC1 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		452D969123800E5700F3EFC1 /* AnimeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				452D966423800D4D00F3EFC1 /* Assets.xcassets */,
 				452D966623800D4D00F3EFC1 /* LaunchScreen.storyboard */,
 				452D966923800D4D00F3EFC1 /* Info.plist */,
+				452D968D23800DD200F3EFC1 /* AnimeTableViewCell.swift */,
+				452D968F23800DE200F3EFC1 /* Anime.swift */,
+				452D969123800E5700F3EFC1 /* AnimeTableViewController.swift */,
 			);
 			path = AnimeList;
 			sourceTree = "<group>";
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452D969023800DE200F3EFC1 /* Anime.swift in Sources */,
 				452D966023800D4D00F3EFC1 /* ViewController.swift in Sources */,
 				452D965E23800D4D00F3EFC1 /* AppDelegate.swift in Sources */,
+				452D968E23800DD200F3EFC1 /* AnimeTableViewCell.swift in Sources */,
+				452D969223800E5700F3EFC1 /* AnimeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HY8C6AATE;
 				INFOPLIST_FILE = AnimeList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codebreaker.AnimeList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HY8C6AATE;
 				INFOPLIST_FILE = AnimeList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codebreaker.AnimeList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
